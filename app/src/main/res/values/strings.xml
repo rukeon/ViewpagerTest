@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ViewpagerTest</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Inbuilt Panoramic Gallery</string>
+    <string name="slide_1_desc">Best panoramic images and videos to watch in 360d sphere through cardboard...!!</string>
+
+    <string name="slide_2_title">Browse from your gallery</string>
+    <string name="slide_2_desc">You can also browse your beautiful panoramic collection and enjoy it in 3D...!!</string>
+
+    <string name="slide_3_title">Online Panoramic gallery</string>
+    <string name="slide_3_desc">A huge wonderful collection of panoramic images and videos for beautiful places of world... !</string>
+
+    <string name="slide_4_title">Save your collection</string>
+    <string name="slide_4_desc">Never miss an opportunity,just save and enhance your panoramic collection...!!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="title_activity_welcomeactivity">Welcomeactivity</string>
+</resources>

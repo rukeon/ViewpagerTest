@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/background_first"
+    tools:context="rukeon.com.viewpagertest.MainActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:id="@+id/l1"
+        android:layout_weight="0.50"
+        android:gravity="center"
+
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"
+            android:id="@+id/logoimg"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/l1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true"
+            android:gravity="left">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Inbuilt Images" android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+
+                android:gravity="center"
+                android:id="@+id/inbuiltButton"
+                android:drawableLeft="@drawable/icon_gallery"
+                android:drawableStart="@drawable/icon_gallery"
+                android:textAppearance="?android:textAppearanceLarge"
+
+                android:textColor="#FFF"
+
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Browse Images"
+                android:id="@+id/browseButton"
+                android:gravity="center"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:layout_marginTop="8dp"
+                android:textColor="#FFF"
+                android:drawableLeft="@drawable/icon_sdcard"
+                android:drawableStart="@drawable/icon_sdcard"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Online Images" android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:gravity="center"
+                android:id="@+id/cardviewButton"
+                android:textAppearance="?android:textAppearanceLarge"
+
+                android:textColor="#FFF"
+                android:layout_marginTop="8dp"
+                android:drawableLeft="@drawable/icon_browser_net"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
